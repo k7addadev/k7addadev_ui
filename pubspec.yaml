@@ -1,0 +1,40 @@
+name: k7addadev_ui
+description: >-
+  Reusable Flutter UI widgets. Includes K7TextField, a borderless form text
+  field with digits-only and length limits, read-only tap mode, aligned icons
+  and automatic RTL support.
+version: 0.1.0
+repository: https://github.com/k7addadev/k7addadev_ui
+issue_tracker: https://github.com/k7addadev/k7addadev_ui/issues
+
+environment:
+  sdk: ^3.6.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  fonts:
+    - family: MontserratArabic
+      fonts:
+        - asset: assets/fonts/Montserrat-Arabic-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Arabic-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Arabic-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Arabic-Bold.ttf
+          weight: 700
+
+topics:
+  - widget
+  - ui
+  - text-field
+  - form

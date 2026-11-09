@@ -1,0 +1,18 @@
+name: k7addadev_ui_example
+description: Example app for the k7addadev_ui package.
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  k7addadev_ui:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

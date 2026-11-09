@@ -1,0 +1,9 @@
+# Replaces example/.gitignore when publishing; keep the example to its source.
+build/
+.dart_tool/
+.idea/
+*.iml
+.metadata
+pubspec.lock
+web/
+windows/
